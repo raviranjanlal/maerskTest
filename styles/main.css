@@ -1,0 +1,171 @@
+  section {
+    width: 600px;
+    height: 600px;
+  }
+  
+  div {
+    float: left;
+    width: 32%;
+    height: 25%;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 50px;
+    padding-top: 10%;
+  }
+
+  .div1{
+    background-color: #2B8EAD;
+  }
+
+  .div2{
+    background-color: #6F98A8;
+  }
+
+  .div3{
+    background-color: #2B8EAD;
+  }
+
+  .div4{
+    background-color: #6F98A8;
+  }
+
+  .div5{
+    background-color: #2F454E;
+  }
+
+  .div6{
+    background-color: #72C3DC;
+  }
+
+  .div7{
+    background-color: #BFBFBF;
+  }
+
+  .div8{
+    background-color: #72C3DC;
+  }
+
+  .div9{
+    background-color: #BFBFBF;
+  }
+
+
+  span.a {
+    display: inline-grid;
+  }
+
+  span.b {
+    display: inline-grid;
+    position: absolute;
+  }
+
+  .mt10{
+    margin-top: 10%;
+  }
+
+  button{
+    font-size: 25px;
+    width: 10em;
+    height: 2.5em;
+    background-color: #72C3DC;
+    color: #FFFFFF;
+    border-radius: 7px;
+    border: 0;
+    -webkit-box-shadow: 10px 5px 0px 0px rgb(50 50 50 / 75%);
+    -moz-box-shadow:    0px 5px 0px 0px rgb(50 50 50 / 75%);
+    box-shadow:         0px 5px 0px 0px rgb(50 50 50 / 75%);
+  }
+
+ 
+
+  @media screen and  (min-width: 375px) {
+    /* desktop view */
+   
+  }
+
+  @media screen and  (max-width: 375px) {
+    /* mobile view */
+
+    section {
+      width: 600px;
+      height: auto;
+      flex-direction: column;
+      display: flex;
+      text-align: center;
+    }
+
+    div {
+      float: left;
+      width: 80%;
+      height: 25%;
+      text-align: center;
+      font-size: 50px;
+      padding-top: 5%;
+      margin-bottom: 1%;
+      margin-left: 3%;
+    }
+
+    span.b {
+      position: absolute;
+      display: flex;
+    }
+
+    .div1{
+      background-color: #EFEFEF;
+      color: black;
+      border-left: 10px solid #2B8EAD;
+      
+    }
+  
+    .div2{
+      background-color: #EFEFEF;
+      color: black;
+      border-left: 10px solid #6F98A8;
+    }
+  
+    .div3{
+      background-color: #EFEFEF;
+      color: black;
+      border-left: 10px solid #2B8EAD;
+    }
+  
+    .div4{
+      background-color: #EFEFEF;
+      color: black;
+      border-left: 10px solid #6F98A8;
+    }
+  
+    .div5{
+      background-color: #EFEFEF;
+      color: black;
+      border-left: 10px solid #2F454E;
+    }
+  
+    .div6{
+      background-color: #EFEFEF;
+      color: black;
+      border-left: 10px solid #72C3DC;
+    }
+  
+    .div7{
+      background-color: #EFEFEF;
+      color: black;
+      border-left: 10px solid #BFBFBF;
+    }
+  
+    .div8{
+      background-color: #EFEFEF;
+      color: black;
+      border-left: 10px solid #72C3DC;
+    }
+  
+    .div9{
+      background-color: #EFEFEF;
+      color: black;
+      border-left: 10px solid #BFBFBF;
+    }
+
+  }
+
+ 
+  
